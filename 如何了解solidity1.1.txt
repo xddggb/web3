@@ -1,0 +1,10 @@
+SPDX license合约代码如果需要开源需要申明协议，使用pragma快捷补全
+可使用幂运算符号^0.8.0（含义大于等于）或  >= 0.8.0 < 0.9.0
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Hello3Dot0 {
+            string  public hello = "hello 3.0!";
+}
+首先声明的关键字是 contract
+变量命名规范：首字母可以使用下划线、字母大小写，但是不能是数字。变量名中间的字符，可以大小写字母和数字。不能用特殊的运算符号，以及中文符号这些。
